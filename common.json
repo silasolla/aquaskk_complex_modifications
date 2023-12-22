@@ -1,0 +1,26 @@
+{
+	"title": "Common",
+	"rules": [
+		{
+			"manipulators": [
+				{
+					"description": "Change caps lock to left_control.",
+					"from": {
+						"key_code": "caps_lock",
+						"modifiers": {
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "left_control"
+						}
+					],
+					"type": "basic"
+				}
+			]
+		}
+	]
+}

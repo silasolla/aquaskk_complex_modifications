@@ -1,0 +1,143 @@
+{
+	"title": "AquaSKK",
+	"rules": [
+		{
+			"manipulators": [
+				{
+					"description": "Change ^j to ^J",
+					"from": {
+						"key_code": "j",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "j",
+							"modifiers": [
+								"left_control",
+								"left_shift"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^com\\.googlecode\\.iterm2",
+								"^com\\.apple\\.Terminal"
+							]
+						}
+					],
+					"type": "basic"
+				}
+			]
+		},
+		{
+			"manipulators": [
+				{
+					"description": "Change ^l to ^L",
+					"from": {
+						"key_code": "l",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "l",
+							"modifiers": [
+								"left_control",
+								"left_shift"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^com\\.googlecode\\.iterm2",
+								"^com\\.apple\\.Terminal"
+							]
+						}
+					],
+					"type": "basic"
+				}
+			]
+		},
+		{
+			"manipulators": [
+				{
+					"description": "Change alt ^l to alt ^L",
+					"from": {
+						"key_code": "l",
+						"modifiers": {
+							"mandatory": [
+								"left_control",
+								"alt"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "l",
+							"modifiers": [
+								"left_control",
+								"left_shift",
+								"alt"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^com\\.googlecode\\.iterm2",
+								"^com\\.apple\\.Terminal"
+							]
+						}
+					],
+					"type": "basic"
+				}
+			]
+		},
+		{
+			"manipulators": [
+				{
+					"description": "Change ^q to ^Q",
+					"from": {
+						"key_code": "q",
+						"modifiers": {
+							"mandatory": [
+								"left_control"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "q",
+							"modifiers": [
+								"left_control",
+								"left_shift"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^com\\.googlecode\\.iterm2",
+								"^com\\.apple\\.Terminal"
+							]
+						}
+					],
+					"type": "basic"
+				}
+			]
+		}
+	]
+}
